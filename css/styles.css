@@ -1,0 +1,24 @@
+*{
+    font-family: Futura, Arial, Helvetica, sans-serif;
+    color:#01161E;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.hero{
+    width:70%;
+}
+ul, ol{
+    width:70%;
+}
+li{
+    text-align: left;
+}
+li img {
+    width:120px;
+    height:120px;
+    object-fit: cover;
+    margin-right: 1rem;
+}
