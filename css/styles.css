@@ -1,24 +1,33 @@
 *{
     font-family: Futura, Arial, Helvetica, sans-serif;
     color:#01161E;
+}
+
+.container{
+
     text-align: center;
 }
-a{
+.link a{  
     text-decoration: none;
     font-size: 1.3rem;
+    padding: 1em;
 }
 .hero{
     width:70%;
 }
-ul, ol{
+.link{
     width:70%;
+    margin: 1em auto;
+    text-align: center;
 }
-li{
-    text-align: left;
+.link li{
+    display: inline-flex;
+    list-style-type: none;
+    width: 60%;
+    margin: 1em auto;
 }
-li img {
+.link li img {
     width:120px;
     height:120px;
     object-fit: cover;
-    margin-right: 1rem;
 }
